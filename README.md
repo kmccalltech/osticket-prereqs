@@ -31,12 +31,12 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 <img src="https://i.imgur.com/a8VoYqd.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-First step in creating our own virtual machine using Azure I can make a complete walkthrough step by step on how to do so if needed.
+First step in creating our own virtual machine using Azure, I can make a complete walkthrough step by step on how to do so if needed.
 </p>
 <br />
 
 <h3>osTicket Installation</h3><br/>
-<p>Once you get your VM up and running there is an important step you will need to do before getting into the project and thats install / enable IIS in windows with CGI </p>
+<p>Once you get your VM up and running, there is an important step you will need to do before getting into the project, and that's install/enable IIS in Windows with CGI </p>
 <table>
   <tr>
 <td><img width="1114" alt="Screenshot 2025-01-08 at 8 04 06 PM" src="https://github.com/user-attachments/assets/b4c6e1df-267d-4fde-b536-653c858ebb86" /></td>
@@ -44,7 +44,7 @@ First step in creating our own virtual machine using Azure I can make a complete
   </tr>
 </table>
 <p>
-  Open to Control Panel -> Programs -> Program and Features -> Turn Windows features on or off
+  Open Control Panel -> Programs -> Program and Features -> Turn Windows features on or off
 </p>
 </p>
 <br />
@@ -124,7 +124,7 @@ Password: root
   </tr>
 </table>
 <p>
-  Next, open IIS and run it as administrator. Within IIS, open the PHP manager. Then select "Register new PHP version" and enter in "C:\PHP\php-cgi.exe"
+  Next, open IIS and run it as an administrator. Within IIS, open the PHP manager. Then select "Register new PHP version" and enter "C:\PHP\php-cgi.exe"
 </p>
 <br />
 
@@ -169,7 +169,7 @@ Now refresh the osTicket site in your browser.
 </p>
 <br>
 <h3>Setup osTicket in the browser as a helpdesk agent</h3>
-<p>Now that the hard part is over lets setup osTicket itself with configurations and permissions</p>
+<p>Now that the hard part is over, let's set up osTicket itself with configurations and permissions</p>
 <table>
   <tr>
     <td><img width="717" alt="Screenshot 2025-01-08 at 8 51 49 PM" src="https://github.com/user-attachments/assets/5bcc1437-2e00-42ba-b434-f72ff74d0fae" />
@@ -196,7 +196,7 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
   </tr>
 </table>
   </tr>
-<p> Next, click Add, make sure that "Write" permissions are checked. Click "Select a princpial", enter "everyone", and select "Check Names". BE SURE TO APPLY CHANGES</p>
+<p> Next, click Add, make sure that "Write" permissions are checked. Click "Select a principal", enter "everyone", and select "Check Names". BE SURE TO APPLY CHANGES</p>
 
 
 <table>
@@ -224,8 +224,8 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 <p>
 From the “osTicket-Installation-Files” folder, install HeidiSQL.
 Open Heidi SQL,
-create a new session, enter root/root, click open and
-create a database called “osTicket”
+create a new session, enter root/root, click open, and
+Create a database called “osTicket”
 </p>
 
 <p> Back in the browser, fill out the remaining blanks.
